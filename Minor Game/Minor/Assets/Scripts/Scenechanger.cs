@@ -13,6 +13,7 @@ public class Scenechanger : MonoBehaviour
         if (gameObject.tag == "Hammerhead") 
         {
             Invoke("Scenechange", 4f);
+            //Hammerhaed gameobject spawn
             
         }
     }
