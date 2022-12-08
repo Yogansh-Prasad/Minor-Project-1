@@ -7,8 +7,9 @@ using UnityEngine.UI;
 
 public class Scenechanger : MonoBehaviour
 {
-    public static  int cardspawner;
+    public static  int cardspawner=0;
     public static GameObject canvas;
+    
 
 
     private void OnMouseDown()
@@ -42,6 +43,13 @@ public class Scenechanger : MonoBehaviour
             Invoke("Scenechange", 4f);
             
         }
+        else if (gameObject.tag == "Punch")
+        {
+            cardspawner = 5;
+            Invoke("Scenechange", 4f);
+
+        }
+
 
     }
     
