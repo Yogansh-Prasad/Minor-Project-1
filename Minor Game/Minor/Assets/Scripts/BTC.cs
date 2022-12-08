@@ -8,7 +8,7 @@ public class BTC : MonoBehaviour
 
     
     public GameObject Celestial;
-    public int PlyrSpwan;
+    
 
     public void Start()
     {

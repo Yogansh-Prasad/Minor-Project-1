@@ -9,6 +9,8 @@ TagManager:
   - Kendor
   - Mjolnir
   - Kedron
+  - Hammerhead
+  - Punch
   layers:
   - Default
   - TransparentFX
