@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class Scenechanger : MonoBehaviour
 {
     public static  int cardspawner=0;
+    public static int moveplayed = 0;
     public static GameObject canvas;
     
 
@@ -17,17 +18,17 @@ public class Scenechanger : MonoBehaviour
         if (gameObject.tag == "Celestial")
         {
             cardspawner = 1;
-            
+
             Invoke("Scenechange", 4f);
-            
-            
+
+
 
         }
-        else if (gameObject.tag == "Demolean") 
+        else if (gameObject.tag == "Demolean")
         {
             cardspawner = 2;
             Invoke("Scenechange", 4f);
-            
+
 
         }
 
@@ -35,20 +36,36 @@ public class Scenechanger : MonoBehaviour
         {
             cardspawner = 3;
             Invoke("Scenechange", 4f);
-            
+
         }
         else if (gameObject.tag == "Mjolnir")
         {
             cardspawner = 4;
             Invoke("Scenechange", 4f);
-            
-        }
-        else if (gameObject.tag == "Punch")
-        {
-            cardspawner = 5;
-            Invoke("Scenechange", 4f);
 
         }
+        else { cardspawner = 0; }
+        
+        //Action card logic
+
+        if (gameObject.tag == "Punch")
+        {
+            moveplayed = 1;
+
+            Invoke("ActionScenechange", 4f);
+
+
+
+        }
+        else if (gameObject.tag == "Kick")
+        {
+            moveplayed = 2;
+            Invoke("ActionScenechange", 4f);
+
+
+        }
+        else { moveplayed = 0; }
+
 
 
     }
@@ -59,7 +76,14 @@ public class Scenechanger : MonoBehaviour
     {
         canvas = GameObject.FindGameObjectWithTag("EditorOnly");
         canvas.SetActive(false);
-        SceneManager.LoadScene(1, LoadSceneMode.Additive);
+        SceneManager.LoadScene(2, LoadSceneMode.Additive);
+    }
+
+    public void ActionScenechange()
+    {
+        canvas = GameObject.FindGameObjectWithTag("EditorOnly");
+        canvas.SetActive(false);
+        SceneManager.LoadScene(3, LoadSceneMode.Additive);
     }
 
 

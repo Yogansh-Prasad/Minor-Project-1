@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 85c24079d5dde0c4fa839bc9669d3618
+  - enabled: 1
     path: Assets/Scenes/Card.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Fight.unity
+    path: Assets/Scenes/Spawn.unity
     guid: a82d1d59cf70bb246ba50652c12c40df
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: 85c24079d5dde0c4fa839bc9669d3618
+    path: Assets/Scenes/Fight.unity
+    guid: b276879d88f5dfa4d91274217019605e
   m_configObjects: {}

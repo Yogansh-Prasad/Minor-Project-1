@@ -7,6 +7,7 @@ public class BTC : MonoBehaviour
 {
 
     
+    public GameObject Kedron;
     public GameObject Celestial;
     
 
@@ -20,13 +21,20 @@ public class BTC : MonoBehaviour
     public void Spawn()
     {
         
-        if (Scenechanger.cardspawner == 1) 
+        if (Scenechanger.cardspawner == 3) 
         {
-            Celestial.SetActive(true);
-            Invoke("BackToMain", 5f);
+            Kedron.SetActive(true);
+            Invoke(nameof(BackToMain), 5f);
            
         }
-        
+
+        if (Scenechanger.cardspawner == 1)
+        {
+            Celestial.SetActive(true);
+            Invoke(nameof(BackToMain), 5f);
+
+        }
+
     }
 
     [System.Obsolete]
