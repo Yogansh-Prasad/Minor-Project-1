@@ -5,15 +5,34 @@ using UnityEngine.SceneManagement;
 
 public class BTC : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    
+    public GameObject Celestial;
+    public int PlyrSpwan;
+
+    public void Start()
     {
-        Invoke("Scenechange", 1f);
+        
+        Spawn();
+    }
+
+
+    public void Spawn()
+    {
+        
+        if (Scenechanger.cardspawner == 1) 
+        {
+            Celestial.SetActive(true);
+            Invoke("BackToMain", 5f);
+           
+        }
+        
     }
 
     [System.Obsolete]
-    public void Scenechange()
+    public void BackToMain()
     {
         SceneManager.UnloadScene(1);
+        Scenechanger.canvas.SetActive(true);
     }
 }
