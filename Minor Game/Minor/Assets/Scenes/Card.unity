@@ -140,7 +140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 196572362281845334, guid: ad587e0b70be0bb4880d92617c9575a7, type: 3}
       propertyPath: m_TagString
-      value: Celestial
+      value: Kedron
       objectReference: {fileID: 0}
     - target: {fileID: 232972788841019143, guid: ad587e0b70be0bb4880d92617c9575a7, type: 3}
       propertyPath: m_Size.x
@@ -153,7 +153,7 @@ PrefabInstance:
     - target: {fileID: 232972788841019143, guid: ad587e0b70be0bb4880d92617c9575a7, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 626e94bcb046b9946add61536f49ecb4, type: 3}
+      objectReference: {fileID: 21300000, guid: 500aa909d2a56494ca1ae9e7356c18ab, type: 3}
     - target: {fileID: 232972788841019143, guid: ad587e0b70be0bb4880d92617c9575a7, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -760,7 +760,7 @@ PrefabInstance:
     - target: {fileID: 232972788841019143, guid: ad587e0b70be0bb4880d92617c9575a7, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 636aae65016d194428754bb976a92ee7, type: 3}
+      objectReference: {fileID: 21300000, guid: 2c1247aad497e954c8f623d7a0f3fcf0, type: 3}
     - target: {fileID: 232972788841019143, guid: ad587e0b70be0bb4880d92617c9575a7, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -1482,7 +1482,7 @@ PrefabInstance:
     - target: {fileID: 232972788841019143, guid: ad587e0b70be0bb4880d92617c9575a7, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 2afecb28077b863488d1edb0c8e8ccf2, type: 3}
+      objectReference: {fileID: 21300000, guid: 500aa909d2a56494ca1ae9e7356c18ab, type: 3}
     - target: {fileID: 232972788841019143, guid: ad587e0b70be0bb4880d92617c9575a7, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -1845,7 +1845,7 @@ PrefabInstance:
     - target: {fileID: 232972788841019143, guid: ad587e0b70be0bb4880d92617c9575a7, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 636aae65016d194428754bb976a92ee7, type: 3}
+      objectReference: {fileID: 21300000, guid: 2c1247aad497e954c8f623d7a0f3fcf0, type: 3}
     - target: {fileID: 232972788841019143, guid: ad587e0b70be0bb4880d92617c9575a7, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -2580,7 +2580,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 196572362281845334, guid: ad587e0b70be0bb4880d92617c9575a7, type: 3}
       propertyPath: m_TagString
-      value: Kedron
+      value: Celestial
       objectReference: {fileID: 0}
     - target: {fileID: 232972788841019143, guid: ad587e0b70be0bb4880d92617c9575a7, type: 3}
       propertyPath: m_Size.x
@@ -2593,7 +2593,7 @@ PrefabInstance:
     - target: {fileID: 232972788841019143, guid: ad587e0b70be0bb4880d92617c9575a7, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 500aa909d2a56494ca1ae9e7356c18ab, type: 3}
+      objectReference: {fileID: 21300000, guid: 626e94bcb046b9946add61536f49ecb4, type: 3}
     - target: {fileID: 232972788841019143, guid: ad587e0b70be0bb4880d92617c9575a7, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -3131,7 +3131,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 196572362281845334, guid: ad587e0b70be0bb4880d92617c9575a7, type: 3}
       propertyPath: m_TagString
-      value: Demolean
+      value: Kedron
       objectReference: {fileID: 0}
     - target: {fileID: 232972788841019143, guid: ad587e0b70be0bb4880d92617c9575a7, type: 3}
       propertyPath: m_Size.x
@@ -3144,7 +3144,7 @@ PrefabInstance:
     - target: {fileID: 232972788841019143, guid: ad587e0b70be0bb4880d92617c9575a7, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 12722df9e88d5f043b1f7a1769d48093, type: 3}
+      objectReference: {fileID: 21300000, guid: 500aa909d2a56494ca1ae9e7356c18ab, type: 3}
     - target: {fileID: 232972788841019143, guid: ad587e0b70be0bb4880d92617c9575a7, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -3488,7 +3488,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1514541889}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -3501,7 +3501,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1700974984121172763, guid: 866aea63f837021409a3811af9e9239f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a6c088d08cda7934890d3039f5827161, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3996,7 +3996,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1809146283}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -4009,7 +4009,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a6c088d08cda7934890d3039f5827161, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ca65ea0d997540e4d970acdb8fcd2637, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
